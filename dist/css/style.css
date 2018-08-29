@@ -1,0 +1,9 @@
+.banner{
+    background-image: url(../images/technology-785742_1920.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: aliceblue;
+}
+.timeline__content{
+    background-color: #ebf1f3!important;
+}
