@@ -14,5 +14,6 @@ const timeLine = {
 };
 let vm = new Vue({
   el: '#app',
-  components: { timeLine }
+  components: { timeLine },
+
 });
