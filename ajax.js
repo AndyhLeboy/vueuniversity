@@ -14,7 +14,7 @@ for (var i = 0; i < links.length; i++) {
     // alert('this.getAttribute')
   });
 }
-
+//MAGIQUE
 function load(lien, place) {
   var httpRequest = new XMLHttpRequest();
   httpRequest.onreadystatechange = function() {
@@ -26,6 +26,10 @@ function load(lien, place) {
   httpRequest.send();
 }
 
+// document.getElementById('idDuBoutton').onclick = function () {
+//     load('path/fichier.php', idDelemplacement);
+// }
+
 // load('/Projet_space/Analyse_space/inc/cont_db.php',liste_cont);
 // load('/Projet_space/Analyse_space/account.php?id=15', result);
 
@@ -33,7 +37,4 @@ function load(lien, place) {
 //   load("../../et.html", liste_cont);
 // };
 
-// document.getElementById('ajout').onclick = function () {
-//     load('/Projet_space/Analyse_space/inc/cont_db.php', liste_cont);
-// }
 // =================================================
